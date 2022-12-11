@@ -38,10 +38,10 @@ img {
 iframe {
     float: left;
     margin-left: 5px;
-    
+
 }
 
-.push-right{
+.push-right {
     margin-right: 15px;
     padding-left: 20px;
     margin-left: 500px;
@@ -109,12 +109,12 @@ button {
     padding: 10px 20px;
     font-family: "Sabon-Font", sans-serif;
     text-decoration: none;
-  }
+}
 
 .btn:hover {
     background-color: rgb(228, 169, 110);
     transition: opacity ease-in-out 0.3s;
-  }
+}
 
 
 #nav {
@@ -135,7 +135,7 @@ button {
     border-bottom-right-radius: 20px;
 }
 
-#golf{
+#golf {
     margin-left: 15px;
 }
 
@@ -165,7 +165,7 @@ button {
 
 
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     body {
         margin: 10px;
@@ -190,29 +190,20 @@ button {
         margin: -5px;
     }
 
-.container {
-    font-size: 12px;
-}
+    .container {
+        font-size: 12px;
+    }
 
-height: 100px;
-    display: flex;
-    padding: 30px;
-    margin: 50px;
-    align-items: center;
-    justify-content: center;
-    border: 0.4px solid #242424;
-
-
-iframe {
+    iframe {
         max-width: 95%;
         height: 100%;
         margin: -5px;
         display: inline;
-}
+    }
 
-.push-right{
-    clear: both;
-    display: inline;
-}
+    .push-right {
+        clear: both;
+        display: inline;
+    }
 
 }
