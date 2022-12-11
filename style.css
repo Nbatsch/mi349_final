@@ -43,8 +43,9 @@ iframe {
 
 .push-right{
     margin-right: 15px;
-    padding-left: 15px;
+    padding-left: 20px;
     margin-left: 500px;
+    padding-top: 15px;
 }
 
 
@@ -175,6 +176,7 @@ button {
 
     p {
         width: auto;
+        clear: both;
     }
 
     .info-section {
@@ -187,4 +189,28 @@ button {
         height: auto;
         margin: -5px;
     }
+
+.container {
+    height: auto;
+    display: flex;
+    padding: 30px;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 0.4px solid #ffffff;
+}
+
+
+iframe {
+        max-width: 100%;
+        height: 100%;
+        margin: -5px;
+        display: inline;
+}
+
+.push-right{
+    clear: both;
+    display: inline;
+}
+
 }
