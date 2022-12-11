@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Sabon";
-    src: url(Sabon-Font/Sabon-Rooman.ttf);
+    src: url(Sabon-Font/Sabon-Roman.ttf) format("truetype");
 }
 
 html {
